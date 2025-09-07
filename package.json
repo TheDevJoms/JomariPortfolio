@@ -1,5 +1,5 @@
 {
-  "homepage": "http://KMBA-Jomari.github.io/Jomari",
+  "homepage": "http://TheDevJoms.github.io/JomariPortfolio",
   "name": "jomari",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages --d git build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
